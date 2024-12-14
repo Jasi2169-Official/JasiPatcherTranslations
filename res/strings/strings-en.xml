@@ -52,7 +52,7 @@
     <string name="down">Download</string>
     <string name="bati">Enable 32 Bit Instruction Set</string>
     <string name="cbati">Use 32 Bit Instruction Set On 64 Bit Firmwares For Patching\n(Only Can Be Selected On 64 Bit Firmwares,Patcher Uses 64 Bit Instruction Set By Default On 64 Bit Firmwares For Patching,Enable This If Patch Does Not Result In Patching On 64 Bit Firmwares As Some Firmwares Uses 32 Bit Instruction Set Even Its 64 Bit Firmware)</string>
-    <string name="suppat">Support Patch</string>
+    <string name="suppat">Installer Patch</string>
     <string name="hidtools">Hide Patching Tools</string>
     <string name="chidtools">Hide Patching Tools Like Lucky Patcher, Freedom, Game Killer From Other Apps\n(Requires Xposed Module Enabled And Rebooted)</string>
     <string name="nonbati">64 Bit Firmware Detected</string>
@@ -99,11 +99,11 @@
 	.......Details.......\n\n
 -> Patch :- Patch License Check Of The Target App, It Need To Be Unpatch Before Updating The Target App (Only Required On Kitkat And Below).\n\n
 -> Unpatch :- Remove Patch From The Target App, It Returns Target App To Normal Unlicensed State, Should Be Used To Remove Patch Before Updating The Target App (Only Required On Kitkat And Below).\n\n
--> Support Patch :- Support Patch For Apps To Work With Patch Or Emulation, Should Be Applied First Before Using Either Patch Or Emulation.\n\n
+-> Installer Patch :- Installer Patch For Apps To Make App Think They Are Installed From Play Store, Should Be Applied First Before Using Either Patch Or Emulation.\n\n
 -> Support Emulate :- Patch Target App For License And Billing Emulation To Work With Root, If You Have Xposed Then You Do Not Need This As Xposed Module Will Take Care Of This Itself, It Is Alternate Of \'Select Apps\' Option In Emulation.\n\n
 -> Remove Ads :- Remove Google Ads From The Target App.\n\n
         .......Note.......\n\n
--> If You Apply Support Patch And Patch Both Then Make Sure Support Patch Should Be Applied First Before Patch.\n\n
+-> If You Apply Installer Patch And Patch Both Then Make Sure Installer Patch Should Be Applied First Before Patch.\n\n
 -> Only User Installed Apps Are Shown In List.\n
     </string>
     <string name="emudetails">
@@ -122,7 +122,7 @@ Consumable :- Coins, Gems Etc In Games.\n\n
 -> If You Have Legal License Or Legal Purchases, Either Only Select Those Apps You Want Emulation To Work On Or If You Selected All Apps For Emulation Then Turn OFF All License Emulation, Billing Emulation And License Hook Because Anyone Of Them Turned ON Will Create Problem In Legal License And Purchase, You Can Also Use Emulation On Your Real License Or Purchases It Will Work Fine In Most Of The Cases.\n\n
 -> Some Apps Use Old Licensing Library, When Licensing Emulation Is Turned On And App Is Not Even Selected In Per App Based List Still They Are Not Licensed From Legal License Because Patcher Interfere Due To Old LVL Library And Per App Based Selection Do Not Work So Turn Off Licensing Emulation And Now It Will Not Interfere In Any License Request, Once Licensed You Can Turn It On Back, Same Goes With Billing Emulation.\n\n
 -> If You Do Not Have Xposed Then You Can Use License And Billing Emulation With Root, It Requires \'Support Emulate\' Patch From Universal Patch To Target App But Keep In Mind Root Kind Of Emulation Is Not Even Close To Xposed Kind Of Emulation Which Is A Quality.\n\n
--> Some Applications Have Extra Checks So You Can Also Apply \'Support Patch\' From Universal Patch To Target App To Bypass Those Extra Checks And Then Use Emulation.\n\n
+-> Some Applications Have Extra Checks So You Can Also Apply \'Installer Patch\' From Universal Patch To Target App To Bypass Those Extra Play Store Installer Checks And Then Use Emulation.\n\n
 -> Emulation Does Not Need Soft Reboot, After Enabling Any Emulation Just Force Stop That App You Want Emulation To Work On, But It Is Better To Soft Reboot To Work Properly.\n
     </string>
     <string name="cuspat">Custom Patch</string>
