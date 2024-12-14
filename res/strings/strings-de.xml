@@ -52,7 +52,7 @@
     <string name="down">Herunterladen</string>
     <string name="bati">Aktiviere 32 Bit Instruction Set</string>
     <string name="cbati">Benutze 32 Bit Instruction Set bei 64 Bit Firmwares für Patching\n(Kann nur bei 64 Bit Firmwares angwandt werden. Der Patcher benutzt 64 Bit Instruction Set automatisch bei 64 Bit Firmwares für Patching. Aktiviere dies nur, wenn der Patch kein Ergebnis erziehlt. Manche 64 Bit Firmares benutzen 32 Bit Instruction)</string>
-    <string name="suppat">Support Patch</string>
+    <string name="suppat">Installer Patch</string>
     <string name="hidtools">Verstecke Patching Werkzeuge</string>
     <string name="chidtools">Verstecke Patching Werkzeuge, wie Lucky Patcher, Freedom, Game Killer vor anderen Apps\n(Setzt voraus, dass das Xposed Modul aktiviert ist und das System neugestartet wurde)</string>
     <string name="nonbati">64 Bit Firmware erkannt</string>
@@ -99,11 +99,11 @@
 	.......Details.......\n\n
 -> Patch :- Patcht die Lizenz der ausgewählten App. Bevor du die App aktualisiert, musst du einen "Unpatch" ausführen.\n\n
 -> Unpatch :- Entfernt den Patch der ausgewählten App. Entfernt ebenfalls die Lizenz, sodass diese unlizensiert ist. Sollte benutzt werden, bevor du die App aktualisierst.\n\n
--> Support Patch :- Ein Support Patch, damit die App emuliert werden kann. Sollte angewandt werden, bevor du eine App patcht oder emulierst.\n\n
+-> Installer Patch :- Ein Installer Patch, damit die App emuliert werden kann. Sollte angewandt werden, bevor du eine App patcht oder emulierst.\n\n
 -> Support Emulate :- Patcht die ausgewählte App, damit Lizenz Patches und Emulierungen mit Root funktionieren. Wenn du Xposed installiert hast, musst du diesen Patch nicht durchführen, da Xposed dies automatisch tut. Es ist eine Alternative zu \'Wähle App\' Option in der Emulation.\n\n
 -> Entferne Werbung :- Entfernt Werbung von der ausgewählten App\n\n
         .......Wichtig.......\n\n
--> Wenn du den Support Patch und beides patcht, dann beachte, dass der Support Patch zuerst ausgeführt wird.\n\n
+-> Wenn du den Installer Patch und beides patcht, dann beachte, dass der Installer Patch zuerst ausgeführt wird.\n\n
 -> Nur vom Benutzer installierte Apps mit der Absicht ausgeführt zu werden, werden angezeigt.\n
     </string>
     <string name="emudetails">
@@ -121,7 +121,7 @@ Consumable :- Coins, Gems Etc für Spiele.\n\n
 -> Wenn du eine Legale Lizenz oder einen Legalen Kauf besitzt, wähle nur die Apps aus, die wirklich emuliert werden sollen, da es sonst zu Komplikationen mit deinem legalen Kauf oder deiner legalen Lizenz führen kann.\n\n
 -> Manche Apps benutzen eine veraltete Lizenz Bibilothek. Wenn die Lizenz Emulation bei der App aktiviert ist, sind diese nicht legal lizensiert. LVL Bibilotheken funktionieren nicht, also deaktiviere Lizenz Emulation.\n\n
 -> Wenn du kein Xposed besitzt, kannst du eine Lizenz und Billing Emulation ausführen als Root ausführen. Es benötigt \'Support Emulate\' Patch. Beachte, dass diese Art von Emulation nicht so erfolgreich ist, wie eine mit Xposed Modul.\n\n
--> Manche Apps besitzen eine zusätzliche Verifikation, also musst du zusätzlich den \'Support Patch\' ausführen und dann die Emulation, damit dieser umgangen wird.\n\n
+-> Manche Apps besitzen eine zusätzliche Verifikation, also musst du zusätzlich den \'Installer Patch\' ausführen und dann die Emulation, damit dieser umgangen wird.\n\n
 -> Eine Emulation benötigt keinen Neustart. Nach einer Emulation musst du lediglich die App vollständig beenden. Es ist trotzdem empfehlenswert, dein Gerät nach einer Emulation neuzustarten.\n
     </string>
 	<string name="cuspat">Benutzerdefinierter Patch</string>
